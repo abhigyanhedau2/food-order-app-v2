@@ -52,8 +52,9 @@ button.active {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  width: 90vw;
+  margin: 0 auto;
   justify-content: center;
-  width: 100vw;
   gap: 4rem 2rem;
 }
 
