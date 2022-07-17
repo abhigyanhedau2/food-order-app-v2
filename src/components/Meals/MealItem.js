@@ -10,9 +10,9 @@ const MealItem = (props) => {
 
     for(let i = 1; i <= 5; i++){
         if(i <= props.rating)
-            ratingArr.push(<i className="fa-solid fa-star"></i>)
+            ratingArr.push(<i key={i} className="fa-solid fa-star"></i>)
         else
-            ratingArr.push(<i className="fa-regular fa-star"></i>)
+            ratingArr.push(<i key={i} className="fa-regular fa-star"></i>)
     } 
 
     const onPlusHandler = () => {

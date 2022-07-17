@@ -12,7 +12,7 @@ const Meals = () => {
     const btnNamesArr = [...new Set(foodItemsArr.map(item => item.category))];
 
     // Set btn colors in order
-    const bntClrArr = ['rgb(0, 194, 0)', 'orangered', 'green', 'brown', 'red', 'rgb(245, 245, 118)', 'palevioletred', 'lightblue'];
+    const bntClrArr = ['rgb(0, 194, 0)', 'orange', 'green', 'brown', 'red', 'rgb(245, 245, 118)', 'palevioletred', 'lightblue'];
     let clrArrIdx = 0;
 
     // Merge both the arrays
@@ -79,10 +79,7 @@ const Meals = () => {
 
         event.currentTarget.classList.add('active');
 
-        setCategory(prev => {
-            return enteredCategory;
-        });
-
+        setCategory(enteredCategory);
     }
 
     // Converting the items to meal components
@@ -99,9 +96,6 @@ const Meals = () => {
             </div>
             <div className="meal-items">
                 {mealItemComponentList}
-                {/* <MealItem />
-                <MealItem />
-                <MealItem /> */}
             </div>
         </div>
     )

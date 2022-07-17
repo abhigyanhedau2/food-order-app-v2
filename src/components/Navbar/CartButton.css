@@ -13,7 +13,7 @@
     padding: 0 1rem;
     border-radius: 5px;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 50;

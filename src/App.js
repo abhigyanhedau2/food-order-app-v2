@@ -4,7 +4,7 @@ import Meals from './components/Meals/Meals';
 
 const App = () => {
   return (
-    <div>
+    <div className='app-wrapper'>
       <Header />
       <Meals />
     </div>
