@@ -13,7 +13,7 @@
 
 .meal-item-content {
   height: 400px;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

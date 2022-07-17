@@ -1,19 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useContext } from 'react';
 import './MealItem.css';
 import Card from '../UI/Card/Card';
+import CartContext from '../../store/cart-context';
 
 const MealItem = (props) => {
 
     const [quantity, setQuantity] = useState(1);
+    const quantityRef = useRef();
+
+    const cartContext = useContext(CartContext);
 
     let ratingArr = [];
 
-    for(let i = 1; i <= 5; i++){
-        if(i <= props.rating)
+    for (let i = 1; i <= 5; i++) {
+        if (i <= props.rating)
             ratingArr.push(<i key={i} className="fa-solid fa-star"></i>)
         else
             ratingArr.push(<i key={i} className="fa-regular fa-star"></i>)
-    } 
+    }
 
     const onPlusHandler = () => {
         setQuantity(prev => prev === 5 ? 5 : prev + 1);
@@ -21,6 +25,19 @@ const MealItem = (props) => {
 
     const onMinusHandler = () => {
         setQuantity(prev => prev === 1 ? 1 : prev - 1);
+    }
+
+    const addButtonClickHandler = (event) => {
+        const enteredQuantity = quantityRef.current.value;
+        const enteredQuantityInNumber = +enteredQuantity;
+
+        cartContext.addItem({
+            id: props.id,
+            name: props.name,
+            imgurl: props.imgurl,
+            quantity: enteredQuantityInNumber,
+            price: props.price
+        })
     }
 
     return (
@@ -42,11 +59,11 @@ const MealItem = (props) => {
                 <div className="actions-wrapper">
                     <div className="inputs">
                         <button className='quantity-btn' onClick={onMinusHandler}>-</button>
-                        <input type="number" name="item-quantity" id='id1' min={1} max={5} value={quantity} readOnly />
+                        <input ref={quantityRef} type="number" name="item-quantity" id='id1' min={1} max={5} value={quantity} readOnly />
                         <button className='quantity-btn' onClick={onPlusHandler}>+</button>
                     </div>
                     <div className="add-btn">
-                        <button>Add + </button>
+                        <button onClick={addButtonClickHandler}>Add + </button>
                     </div>
                 </div>
             </div>

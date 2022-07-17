@@ -84,7 +84,7 @@ const Meals = () => {
 
     // Converting the items to meal components
     const mealItemComponentList = menuItems.map(item => {
-        return <MealItem key={item.id} imgurl={item.imgurl} name={item.name} desc={item.desc} rating={item.rating} price={item.price} />
+        return <MealItem key={item.id} id={item.id} imgurl={item.imgurl} name={item.name} desc={item.desc} rating={item.rating} price={item.price} />
     })
 
     return (

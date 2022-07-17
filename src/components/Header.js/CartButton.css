@@ -1,4 +1,4 @@
-.cart-button {
+button.cart-button {
     margin-top: 1rem;
     margin-right: 2rem;
     width: 125px;
@@ -13,12 +13,18 @@
     padding: 0 1rem;
     border-radius: 5px;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     z-index: 50;
+    transition: all 0.1s;
+}
+
+.bump {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0);
 }
 
 .cart-button:hover {
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0);
 }

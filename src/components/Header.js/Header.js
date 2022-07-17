@@ -1,13 +1,14 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import CartButton from './CartButton';
 import Parallax from '../UI/Parallax/Parallax';
 import './Header.css';
 import backgroundimg from '../../assets/background.jpg'
 
-const Header = () => {
+const Header = (props) => {
+
     return (
         <Parallax className='header-wrapper parallax-wrapper' imgurl={backgroundimg}>
-            <Navbar />
+            <CartButton toggleCartHandler={props.toggleCartHandler} />
             <div className="title">
                 <div className="title-heading">
                     <h1>Welcome to</h1>

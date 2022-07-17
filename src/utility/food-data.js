@@ -602,7 +602,7 @@ const foodItemsArr = [
     {
         id: 'ds7',
         category: 'desserts',
-        name: 'Rasgulla',
+        name: 'Strawberry Icecream',
         desc: "Icecream made with sugar, water, cream and ofcourse strawberries!",
         rating: 5,
         imgurl: require('../assets/Desserts/ds7.jpg'),
