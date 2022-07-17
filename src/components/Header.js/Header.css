@@ -1,0 +1,36 @@
+.header-wrapper {
+  position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-heading {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  width: fit-content;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
+
+.title-heading h1 {
+  margin: 1rem 0;
+}
+
+.title-para {
+    margin-top: 7rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+}
+
+.title-para p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 0 2rem;
+}

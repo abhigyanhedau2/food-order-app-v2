@@ -1,0 +1,83 @@
+.meal-item-wrapper {
+  overflow: hidden;
+  width: 450px;
+  height: 700px;
+  text-align: left;
+  margin: 2rem 2rem;
+}
+
+.meal-item-image-wrapper img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.meal-item-content {
+  height: 400px;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.meal-item-details-wrapper h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.25rem;
+}
+
+.actions-wrapper {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.actions-wrapper button {
+    cursor: pointer;
+}
+
+.actions-wrapper input {
+  width: 25px;
+  height: 25px;
+  font-size: 1.1rem;
+  border-radius: 0px;
+  display: flex;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.quantity-btn {
+  width: 31px;
+  height: 31px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.actions-wrapper input:focus {
+  outline: none;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+}
+
+.add-btn button {
+    padding: 0.25rem 1rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.add-btn button:hover {
+    background-color: #000;
+    border: 1px solid #000;
+}
