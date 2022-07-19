@@ -312,7 +312,7 @@ const foodItemsArr = [
     {
         id: 'nv5',
         category: 'non-veg',
-        name: 'Champaran Mutton Curry',
+        name: 'Mutton Curry',
         desc: "A dish that is prepared from goat meat and vegetables. The dish is found in different variations across all states, countries and regions of South Asia and the Caribbean.",
         rating: 5,
         imgurl: require('../assets/Non Veg/nv5.jpg'),
