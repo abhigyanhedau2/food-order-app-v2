@@ -32,9 +32,8 @@
 
 .button-row button {
   text-align: center;
-  width: 130px;
-  height: 35px;
-  font-size: 1.1rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
   border-radius: 20px;
   background: transparent;
   font-weight: 600;
@@ -65,5 +64,18 @@ button.active {
 
   .button-row {
     margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+
+  .button-row{
+    width: 90vw;
+  }
+
+  .button-row button {
+    padding: 0rem;
+    width: 120px;
+    height: 30px;
   }
 }
