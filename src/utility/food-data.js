@@ -282,7 +282,7 @@ const foodItemsArr = [
     {
         id: 'nv2',
         category: 'non-veg',
-        name: 'Butter Chicken',
+        name: 'Chicken Curry',
         desc: "A typical north-Indian-style chicken curry! Spicy chicken masala is a heaven for all the spice lovers who love their chicken doused in a myriad of flavours.",
         rating: 4,
         imgurl: require('../assets/Non Veg/nv2.jpg'),
