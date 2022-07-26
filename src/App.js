@@ -24,9 +24,11 @@ const App = () => {
 
 	const orderIsPlacedHandler = () => {
 		setOrderIsPlaced(true);
+		document.body.classList.toggle('modal-open');
 
 		setTimeout(() => {
 			setOrderIsPlaced(false);
+			document.body.classList.remove('modal-open');
 		}, 2200);
 	}
 
