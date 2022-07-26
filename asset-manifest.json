@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food-order-app-v2/static/css/main.196ea21e.css",
-    "main.js": "/food-order-app-v2/static/js/main.e8859de0.js",
+    "main.css": "/food-order-app-v2/static/css/main.a7593d05.css",
+    "main.js": "/food-order-app-v2/static/js/main.39fdb38f.js",
     "static/media/veg7.jpg": "/food-order-app-v2/static/media/veg7.463b2703ec2120021739.jpg",
     "static/media/ff1.jpg": "/food-order-app-v2/static/media/ff1.b0e61d4098c9f0b66cbc.jpg",
     "static/media/ds4.jpg": "/food-order-app-v2/static/media/ds4.f4b0d69c04833c4831b3.jpg",
@@ -36,6 +36,7 @@
     "static/media/ff5.jpg": "/food-order-app-v2/static/media/ff5.7d552df647b00d964387.jpg",
     "static/media/itl3.jpg": "/food-order-app-v2/static/media/itl3.49f140983acb7e7f04ab.jpg",
     "static/media/healthy5.jpg": "/food-order-app-v2/static/media/healthy5.b295ef84e0b6f3f1e140.jpg",
+    "static/media/order-placed.gif": "/food-order-app-v2/static/media/order-placed.95b91f6612a4d1b5b414.gif",
     "static/media/bv4.jpg": "/food-order-app-v2/static/media/bv4.6b07989b91658759580c.jpg",
     "static/media/ff4.jpg": "/food-order-app-v2/static/media/ff4.55c13fe6fa7141b9d02c.jpg",
     "static/media/nv1.jpg": "/food-order-app-v2/static/media/nv1.343cf569365b4890f66b.jpg",
@@ -77,11 +78,11 @@
     "static/media/chinese3.jpg": "/food-order-app-v2/static/media/chinese3.70aa05429f46968b35fc.jpg",
     "static/media/logo.png": "/food-order-app-v2/static/media/logo.6a0fc4571d998ea7fd6b.png",
     "index.html": "/food-order-app-v2/index.html",
-    "main.196ea21e.css.map": "/food-order-app-v2/static/css/main.196ea21e.css.map",
-    "main.e8859de0.js.map": "/food-order-app-v2/static/js/main.e8859de0.js.map"
+    "main.a7593d05.css.map": "/food-order-app-v2/static/css/main.a7593d05.css.map",
+    "main.39fdb38f.js.map": "/food-order-app-v2/static/js/main.39fdb38f.js.map"
   },
   "entrypoints": [
-    "static/css/main.196ea21e.css",
-    "static/js/main.e8859de0.js"
+    "static/css/main.a7593d05.css",
+    "static/js/main.39fdb38f.js"
   ]
 }
