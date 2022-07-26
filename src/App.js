@@ -3,11 +3,14 @@ import Cart from './components/Cart/Cart';
 import Header from './components/Header.js/Header';
 import Meals from './components/Meals/Meals';
 import CartProvider from './store/CartProvider';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+import './App.css';
+import OrderPlacedModal from './components/OrderPlacedModal/OrderPlacedModal';
 
 const App = () => {
 
 	const [modalIsOpen, setModalIsOpen] = useState(false);
+	const [orderIsPlaced, setOrderIsPlaced] = useState(false);
 
 	const toggleCartHandler = () => {
 		setModalIsOpen(prev => !prev);
@@ -19,15 +22,24 @@ const App = () => {
 		document.body.classList.remove('modal-open');
 	}
 
+	const orderIsPlacedHandler = () => {
+		setOrderIsPlaced(true);
+
+		setTimeout(() => {
+			setOrderIsPlaced(false);
+		}, 2200);
+	}
+
 	useEffect(() => {
 		window.scrollTo(0, 0)
 	}, [])
 
 	return (
-		<CartProvider>
+		<CartProvider className="app-wrapper">
 			<Header toggleCartHandler={toggleCartHandler} />
 			<Meals />
-			{modalIsOpen && <Cart hideCartHandler={hideCartHandler} />}
+			{modalIsOpen && <Cart hideCartHandler={hideCartHandler} orderIsPlacedHandler={orderIsPlacedHandler} />}
+			{orderIsPlaced && <OrderPlacedModal />}
 			<Footer />
 		</CartProvider>
 	)

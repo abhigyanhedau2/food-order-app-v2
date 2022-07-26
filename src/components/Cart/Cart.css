@@ -1,9 +1,9 @@
 .cart-wrapper {
-    height: 650px;
+    height: 450px;
 }
 
 .cart-items {
-    height: 500px;
+    height: 300px;
     overflow-y: scroll;
     overflow-x: hidden;
 }

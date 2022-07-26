@@ -32,7 +32,7 @@ const Cart = (props) => {
                 </div>
                 <div className="order-actions">
                     <button className='order-btn btn--alt' onClick={props.hideCartHandler}>Cancel</button>
-                    <button className='order-btn' onClick={() => { props.hideCartHandler(); cartContext.emptyCart() }}>Order</button>
+                    <button className='order-btn' onClick={() => { props.hideCartHandler(); cartContext.emptyCart(); props.orderIsPlacedHandler() }}>Order</button>
                 </div>
             </div> : ''}
         </Modal>
