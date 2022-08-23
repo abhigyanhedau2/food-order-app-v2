@@ -58,9 +58,9 @@ const MealItem = (props) => {
                 </div>
                 <div className="actions-wrapper">
                     <div className="inputs">
-                        <button className='quantity-btn' onClick={onMinusHandler}>-</button>
+                        <button className='quantity-btn minus-btn' onClick={onMinusHandler}>-</button>
                         <input ref={quantityRef} type="number" name="item-quantity" id='id1' min={1} max={5} value={quantity} readOnly />
-                        <button className='quantity-btn' onClick={onPlusHandler}>+</button>
+                        <button className='quantity-btn plus-btn' onClick={onPlusHandler}>+</button>
                     </div>
                     <div className="add-btn">
                         <button onClick={addButtonClickHandler}>Add + </button>

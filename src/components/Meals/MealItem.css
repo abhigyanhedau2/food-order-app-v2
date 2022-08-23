@@ -67,6 +67,16 @@
   align-items: center;
 }
 
+.plus-btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.minus-btn {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 .add-btn button {
     padding: 0.25rem 1rem;
     border-radius: 10px;
