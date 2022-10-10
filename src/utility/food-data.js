@@ -322,10 +322,10 @@ const foodItemsArr = [
     {
         id: 'nv6',
         category: 'non-veg',
-        name: 'Champaran Mutton Curry',
-        desc: "Some know it as 'ahuna mutton', while some call it 'matka gosht', nonetheless, this one-pot mutton curry from Bihar has a fan base of its own drooling over",
+        name: 'Mutton Handi',
+        desc: "This one-pot mutton curry has a fan base of its own drooling over",
         rating: 4,
-        imgurl: require('../assets/Non Veg/nv6.jpg'),
+        imgurl: require('../assets/Non Veg/nv6.jpeg'),
         price: 600,
         btnActiveClr: 'brown'
     },
