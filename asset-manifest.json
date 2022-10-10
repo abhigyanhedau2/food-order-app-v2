@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/food-order-app-v2/static/css/main.bd4378c8.css",
-    "main.js": "/food-order-app-v2/static/js/main.a5821826.js",
+    "main.js": "/food-order-app-v2/static/js/main.c778fb9a.js",
     "static/media/veg7.jpg": "/food-order-app-v2/static/media/veg7.463b2703ec2120021739.jpg",
     "static/media/ff1.jpg": "/food-order-app-v2/static/media/ff1.b0e61d4098c9f0b66cbc.jpg",
     "static/media/ds4.jpg": "/food-order-app-v2/static/media/ds4.f4b0d69c04833c4831b3.jpg",
@@ -12,6 +12,7 @@
     "static/media/itl4.jpg": "/food-order-app-v2/static/media/itl4.c6cdc8f5869de096ca94.jpg",
     "static/media/chinese8.png": "/food-order-app-v2/static/media/chinese8.6ce26a48e3ff7d6ac666.png",
     "static/media/ff2.jpg": "/food-order-app-v2/static/media/ff2.b2e79ac66c1af67bc907.jpg",
+    "static/media/nv6.jpeg": "/food-order-app-v2/static/media/nv6.26780980f05985688b50.jpeg",
     "static/media/ff8.jpg": "/food-order-app-v2/static/media/ff8.7145a5e73414ca43d2e6.jpg",
     "static/media/ff9.jpg": "/food-order-app-v2/static/media/ff9.04118275917a0446339e.jpg",
     "static/media/healthy8.jpg": "/food-order-app-v2/static/media/healthy8.1a85ae53b4dbd91b6faf.jpg",
@@ -49,7 +50,6 @@
     "static/media/ds5.jpg": "/food-order-app-v2/static/media/ds5.90426f79d15fd6cbc596.jpg",
     "static/media/nv9.jpg": "/food-order-app-v2/static/media/nv9.2e53d8cf21c4b25c21a9.jpg",
     "static/media/itl8.jpg": "/food-order-app-v2/static/media/itl8.5f5737a84a2c96ec2ba3.jpg",
-    "static/media/nv6.jpg": "/food-order-app-v2/static/media/nv6.365096efac145bcfc1da.jpg",
     "static/media/veg9.jpg": "/food-order-app-v2/static/media/veg9.4686e326d1411cbf53e5.jpg",
     "static/media/nv4.jpg": "/food-order-app-v2/static/media/nv4.f07e26d61fcdd2b4f489.jpg",
     "static/media/healthy1.jpeg": "/food-order-app-v2/static/media/healthy1.c0162b582ef238c24af3.jpeg",
@@ -79,10 +79,10 @@
     "static/media/logo.png": "/food-order-app-v2/static/media/logo.6a0fc4571d998ea7fd6b.png",
     "index.html": "/food-order-app-v2/index.html",
     "main.bd4378c8.css.map": "/food-order-app-v2/static/css/main.bd4378c8.css.map",
-    "main.a5821826.js.map": "/food-order-app-v2/static/js/main.a5821826.js.map"
+    "main.c778fb9a.js.map": "/food-order-app-v2/static/js/main.c778fb9a.js.map"
   },
   "entrypoints": [
     "static/css/main.bd4378c8.css",
-    "static/js/main.a5821826.js"
+    "static/js/main.c778fb9a.js"
   ]
 }
