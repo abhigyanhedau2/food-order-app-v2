@@ -29,7 +29,7 @@ const App = () => {
 		setTimeout(() => {
 			setOrderIsPlaced(false);
 			document.body.classList.remove('modal-open');
-		}, 2200);
+		}, 2700);
 	}
 
 	useEffect(() => {

@@ -9,7 +9,7 @@
 }
 
 .title-heading {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.25);
   color: #fff;
   text-align: center;
   width: fit-content;
@@ -23,7 +23,7 @@
 
 .title-para {
   margin-top: 7rem;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.25);
   color: #fff;
   text-align: center;
 }
