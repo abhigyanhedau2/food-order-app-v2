@@ -5,6 +5,10 @@
   flex-wrap: wrap;
 }
 
+.cart-item-wrapper {
+  padding-right: 20px;
+}
+
 .cart-item-image-and-details {
   display: flex;
 }
